@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const volcanoTableBody = document.querySelector('#volcanoTable tbody');
+    
     axios.get('https://indonesia-public-static-api.vercel.app/api/volcanoes')
         .then(response => {
 
